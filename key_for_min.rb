@@ -15,7 +15,7 @@ def key_for_min_value(name_hash)
     end
 puts "new key = #{new_key}"
   end  
-
+new_key
 end
 
 key_for_min_value(hash)
