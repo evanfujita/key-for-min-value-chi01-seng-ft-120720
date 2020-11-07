@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   new_key = 0
   number = 100000
-  name_hash.include? ":"
+  name_hash.include? :
   name_hash.each do |key, element|
    if number > element
       number = element.to_i
