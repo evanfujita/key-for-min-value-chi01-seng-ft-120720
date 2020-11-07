@@ -13,8 +13,8 @@ def key_for_min_value(name_hash)
     if name_hash[key] == number
       new_key = key
     end
-    new_key
   end  
+  new_key
 end
 
 key_for_min_value(hash)
