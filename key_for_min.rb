@@ -5,9 +5,9 @@ def key_for_min_value(name_hash)
   new_key = 0
   number = 100000
   name_hash.each do |key, element|
-  if name_hash[key].class = Integer
-end
-   if number > element
+  if name_hash[key].class != Integer
+    nil
+   elsif number > element
       number = element.to_i
     end
   end
