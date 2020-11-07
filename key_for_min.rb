@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   number = 100000
-  
+  name_hash.include? (:)
   name_hash.each do |key, element|
    if number > element
       number = element.to_i
@@ -15,7 +15,6 @@ def key_for_min_value(name_hash)
     end
 puts "new key = #{new_key}"
   end  
-new_key
 end
 
 key_for_min_value(hash)
