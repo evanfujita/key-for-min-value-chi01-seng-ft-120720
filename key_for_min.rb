@@ -19,4 +19,3 @@ puts "new key = #{new_key}"
   new_key
 end
 
-key_for_min_value(hash)
