@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
      if name_hash[key].include? 
       nil
    if number > element
-      number = element
+      number = element.to_i
     end
   end
     name_hash.each do |key, element|
